@@ -1,3 +1,4 @@
+from __future__ import print_function
 import sys
 from flask import Flask, jsonify, request, make_response, abort
 import os
@@ -26,7 +27,6 @@ __location__ = os.path.realpath(os.path.join(
 
 # Download models
 #from models.download_models import download_file, download_models
-from __future__ import print_function
 try:
     from urllib.request import urlretrieve
 except ImportError:
