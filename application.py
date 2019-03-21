@@ -2,8 +2,8 @@ import sys
 from flask import Flask, jsonify, request, make_response, abort
 import os
 import nltk
-import numpy as np
-import pandas as pd
+#import numpy as np
+#import pandas as pd
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.linear_model import SGDClassifier
