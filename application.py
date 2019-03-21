@@ -19,8 +19,8 @@ import re
 os.environ['PATH'] = r'D:\home\python354x64;' + os.environ['PATH']
 sys.path.append(".")
 sys.path.append("..")
-sys.path.append("webservice/models")
-sys.path.append("wwwroot/models")
+sys.path.append("webservice")
+sys.path.append("wwwroot")
 app = Flask(__name__)
 __location__ = os.path.realpath(os.path.join(
     os.getcwd(), os.path.dirname(__file__), 'models'))
