@@ -23,7 +23,7 @@ sys.path.append("webservice")
 sys.path.append("wwwroot")
 app = Flask(__name__)
 __location__ = os.path.realpath(os.path.join(
-    os.getcwd(), os.path.dirname(__file__), 'models'))
+    os.getcwd(), os.path.dirname(__file__)))
 
 # Download models
 #from models.download_models import download_file, download_models
