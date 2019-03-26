@@ -117,13 +117,13 @@ def predictall():
         "Request sent to evaluation - %s"
         % time.strftime("%Y-%m-%d %H:%M:%S", ts)
     )
-    return jsonify({
+    return {
         "description": description,
         "ticket_type": predicted_ticket_type,
         # "business_service": predicted_business_service,
         "category": predicted_category,
         "impact": predicted_impact
-    })
+    }
 
 
 @app.route('/endava/api/v1.0/category', methods=['POST'])
