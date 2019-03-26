@@ -1,10 +1,10 @@
-click==6.7
-Flask==1.0.2
-itsdangerous==0.24
-Jinja2==2.10
-MarkupSafe==1.0
-Werkzeug==0.14.1
-nltk==3.2.5
+click
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+nltk
 numpy
 pandas
 scikit_learn
